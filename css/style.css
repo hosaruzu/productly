@@ -11,7 +11,17 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
-    font-weight: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .container {
@@ -20,6 +30,9 @@ body {
     padding: 0 10px;
 }
 
+.title {
+    color:  #2F281E;
+}
 /* header styles starts */
 
 .header__inner {
@@ -50,6 +63,7 @@ body {
     font-size: 14px;
     line-height: 28px;
     text-decoration: none;
+    font-weight: 400;
 }
 
 .user-nav {
@@ -75,6 +89,57 @@ body {
     color: #FFFFFF;
 }
 
-
-
 /* header styles ends */
+
+/* top styles starts */
+.top__inner {
+    padding: 133px 0 80px;
+    background: url(../images/svg/top-bg.svg) no-repeat bottom right;
+}
+
+.top__title {
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    max-width: 518px;
+}
+
+.top_text {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    max-width: 460px;
+    margin-bottom: 45px;
+}
+
+.top__btn {
+    display: inline-block;
+    background-color: #FF9900;
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 15px 41px 14px;
+    margin-right: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.top_link {
+    display: inline-block;
+    color: #FF9900;
+    line-height: 24px;
+    font-weight: 600;
+    padding-left: 25px;
+    position: relative;
+}
+
+.top_link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 17px;
+    height: 19px;
+    background-image: url(../images/svg/play-ico.svg);
+}
+/* top styles ends */
