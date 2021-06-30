@@ -111,6 +111,7 @@
 }
 
 @media (max-width: 768px) {
+
     .top__inner,
     .direction,
     .blog {
@@ -132,93 +133,93 @@
 
 }
 
-    @media (max-width: 524px) {
+@media (max-width: 524px) {
 
-        .header__inner {
-            display: block;
-        }
-
-        .menu__list {
-            display: block;
-            position: absolute;
-            left: 0;
-            right: 0;
-            background-color: #fff;
-            text-align: center;
-            transform: translateY(-300%);
-            transition: .5s all;
-        }
-
-        .menu__list.menu__list--active {
-            transform: translateY(0);
-            transition: .5s all;
-        }
-
-        .menu__btn {
-            display: block;
-            position: absolute;
-            right: 10px;
-            top: 25px;
-        }
-
-        .user-nav {
-            margin-left: 0;
-            margin-right: 0;
-            text-align: center;
-            padding-top: 30px;
-        }
-
-        .menu__list-link {
-            display: block;
-            padding: 10px 0;
-        }
-
-        .menu__list-item+.menu__list-item {
-            margin-left: 0;
-        }
-
-        .top__btn {
-            margin-bottom: 25px;
-        }
-
-        .tools__item {
-            width: 100%;
-            margin-bottom: 45px;
-        }
-
-        .top__title,
-        .tools__title,
-        .direction__item-title,
-        .team__title,
-        .blog__title,
-        .slider__item-title {
-            font-size: 28px;
-            line-height: 32px;
-        }
-
-        .direction__item {
-            margin-bottom: 50px;
-        }
-
-        .direction__item-img {
-            width: 70%;
-        }
-
-        .slider__item {
-            padding: 0;
-        }
-
-        .slider__item-title {
-            margin-bottom: 35px;
-        }
-
-        .footer__inner {
-            justify-content: space-around;
-        }
-
-        .footer .logo {
-            width: 100%;
-            margin-bottom: 25px;
-        } 
-
+    .header__inner {
+        display: block;
     }
+
+    .menu__list {
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        text-align: center;
+        transform: translateY(-300%);
+        transition: .5s all;
+    }
+
+    .menu__list.menu__list--active {
+        transform: translateY(0);
+        transition: .5s all;
+    }
+
+    .menu__btn {
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 25px;
+    }
+
+    .user-nav {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .menu__list-link {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .menu__list-item+.menu__list-item {
+        margin-left: 0;
+    }
+
+    .top__btn {
+        margin-bottom: 25px;
+    }
+
+    .tools__item {
+        width: 100%;
+        margin-bottom: 45px;
+    }
+
+    .top__title,
+    .tools__title,
+    .direction__item-title,
+    .team__title,
+    .blog__title,
+    .slider__item-title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .direction__item {
+        margin-bottom: 50px;
+    }
+
+    .direction__item-img {
+        width: 70%;
+    }
+
+    .slider__item {
+        padding: 0;
+    }
+
+    .slider__item-title {
+        margin-bottom: 35px;
+    }
+
+    .footer__inner {
+        justify-content: space-around;
+    }
+
+    .footer .logo {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+}
