@@ -99,6 +99,12 @@ button {
     line-height: 28px;
     text-decoration: none;
     font-weight: 400;
+    transition: .4s all;
+}
+
+.menu__list-link:hover,
+.menu__list-link:focus {
+    color: #FF9900;
 }
 
 .user-nav {
@@ -115,12 +121,26 @@ button {
     border: 1px solid #BCD0E5;
     border-radius: 4px;
     text-decoration: none;
+    transition: .4s all;
+}
+
+.user-nav__link:focus,
+.user-nav__link:hover {
+    background-color: #173A56;
+    color: #FFFFFF;
 }
 
 .user-nav__link+.user-nav__link {
     margin-left: 14px;
     background-color: #FF9900;
     border-color: transparent;
+    color: #FFFFFF;
+    transition: .4s all;
+}
+
+.user-nav__link+.user-nav__link:hover,
+.user-nav__link+.user-nav__link:focus {
+    background-color: #173A56;
     color: #FFFFFF;
 }
 
@@ -157,6 +177,13 @@ button {
     margin-right: 30px;
     border: none;
     cursor: pointer;
+    transition: .4s all;
+}
+
+.top__btn:hover,
+.top__btn:focus {
+    background-color: #173A56;
+    color: #FFFFFF;
 }
 
 .top__link {
@@ -166,6 +193,12 @@ button {
     font-weight: 600;
     padding-left: 25px;
     position: relative;
+    transition: .4s all;
+}
+
+.top__link:hover,
+.top__link:focus {
+    text-decoration: none;
 }
 
 .top__link::before {
@@ -177,6 +210,7 @@ button {
     height: 19px;
     background-image: url(../images/svg/play-ico.svg);
 }
+
 
 /* top styles end */
 
@@ -237,6 +271,13 @@ button {
     line-height: 24px;
     width: 173px;
     margin: 0 auto;
+    transition: .4s all;
+}
+
+.tools__link:hover,
+.tools__link:focus {
+    background-color: #173A56;
+    color: #FFFFFF;
 }
 
 /* tools styles end */
@@ -343,6 +384,13 @@ button {
     color: #ffffff;
     padding: 15px 30px 14px;
     cursor: pointer;
+    transition: .4s all;
+}
+
+.team__btn:focus,
+.team__btn:hover {
+    background-color: #173A56;
+    color: #FFFFFF;
 }
 
 .team__item {
@@ -576,7 +624,11 @@ button {
     width: 100%;
     margin-bottom: 21px;
     display: inline-block;
+}
 
+.footer__form-input:focus {
+    outline: none;
+    border: 1px solid #ff9900;
 }
 
 .footer__form-input::placeholder {
@@ -594,6 +646,13 @@ button {
     border: none;
     font-weight: 700;
     cursor: pointer;
+    transition: .4s all;
+}
+
+.footer__form-btn:focus,
+.footer__form-btn:hover {
+    background-color: #173A56;
+    color: #FFFFFF;
 }
 
 /* footer styles end */
